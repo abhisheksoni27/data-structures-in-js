@@ -18,24 +18,25 @@ class Stack {
         }
 
         (this.top)--;
-
         let item = this.data[this.top];
-
-        return `Deleted item: ${item}`;
         
+        return `Deleted item: ${item}`;
     }
 
     push(item) {
+        
         this.data[this.top] = item;
         (this.top)++;
+        
         return 'INSERTED'; 
     }
 
     display(){
-
+        
         for(let i = 0; i < this.top; i++){
             console.log(`\n Element at ${i}: ${this.data[i]} \n`);
         }
+
         return 0;
     }
 }
