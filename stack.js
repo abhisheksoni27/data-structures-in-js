@@ -21,7 +21,6 @@ class Stack {
 
         let item = this.data[this.top];
 
-
         return `Deleted item: ${item}`;
         
     }
