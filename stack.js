@@ -25,7 +25,7 @@ class Stack {
 
     push(item) {
 
-        this.data[ this.top ] = item;
+        this.data[this.top] = item;
         (this.top)++;
 
         return this.top;
